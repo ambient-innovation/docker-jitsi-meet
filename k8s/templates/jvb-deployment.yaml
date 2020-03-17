@@ -48,7 +48,7 @@ spec:
         ports:
         - containerPort: 30000
           protocol: UDP
-        - containerPort: 30001
+        - containerPort: 30002
         resources:
           limits:
             cpu: 1500m
