@@ -35,6 +35,12 @@ spec:
           value: Europe/Paris
         image: jitsi/jicofo
         name: jicofo
-        resources: {}
+        resources:
+          limits:
+            cpu: 100m
+            memory: 500Mi
+          requests:
+            cpu: 50m
+            memory: 200Mi
       restartPolicy: Always
 status: {}
