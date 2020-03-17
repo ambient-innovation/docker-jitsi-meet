@@ -32,5 +32,11 @@ spec:
         ports:
         - containerPort: 80
         - containerPort: 443
-        resources: {}
+        resources:
+          limits:
+            cpu: 100m
+            memory: 50Mi
+          requests:
+            cpu: 30m
+            memory: 25Mi
 status: {}
