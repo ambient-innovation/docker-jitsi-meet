@@ -8,14 +8,14 @@ spec:
   type: NodePort
   ports:
   - name: udp
-    port: 30000
-    nodePort: 30000
+    port: 30005
+    nodePort: 30005
     protocol: UDP
-    targetPort: 30000
+    targetPort: 30005
   - name: tcp
-    port: 30002
-    nodePort: 30002
+    port: 30006
+    nodePort: 30006
     protocol: TCP
-    targetPort: 30002
+    targetPort: 30006
   selector:
     service: jvb
