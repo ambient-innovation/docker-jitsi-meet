@@ -46,9 +46,9 @@ spec:
         image: jitsi/jvb
         name: jvb
         ports:
-        - containerPort: 30000
+        - containerPort: 30005
           protocol: UDP
-        - containerPort: 30002
+        - containerPort: 30006
         resources:
           limits:
             cpu: 1500m
