@@ -26,9 +26,9 @@ spec:
         - name: XMPP_AUTH_DOMAIN
           value: auth.meet.jitsi
         - name: JVB_PORT
-          value: "30000"
+          value: "30005"
         - name: JVB_TCP_PORT
-          value: "30001"
+          value: "30006"
         - name: JVB_AUTH_USER
           value: jvb
         - name: JVB_AUTH_PASSWORD
